@@ -1,0 +1,515 @@
+{
+	"info": {
+		"_postman_id": "f4bf354e-01e4-44ac-b889-1fc0909ac87e",
+		"name": "NodeJs33-capstone-express-orm",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23745965"
+	},
+	"item": [
+		{
+			"name": "user",
+			"item": [
+				{
+					"name": "getDanhSachNguoiDung",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5Mb3AiOiJOb2RlSlMgMzMiLCJIZXRIYW5TdHJpbmciOiIxNy8wMi8yMDI0IiwiSGV0SGFuVGltZSI6IjE3MDgxMjgwMDAwMDAiLCJuYmYiOjE2ODk2OTk2MDAsImV4cCI6MTcwODI3NTYwMH0.MRV8WJfRstSWSH-VhvCRNFTjrswM_3tM8u5u-EZysxk",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{domain}}/api/nguoiDung/getDanhSachNguoiDung",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"api",
+								"nguoiDung",
+								"getDanhSachNguoiDung"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getNguoiDungId",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5Mb3AiOiJOb2RlSlMgMzMiLCJIZXRIYW5TdHJpbmciOiIxNy8wMi8yMDI0IiwiSGV0SGFuVGltZSI6IjE3MDgxMjgwMDAwMDAiLCJuYmYiOjE2ODk2OTk2MDAsImV4cCI6MTcwODI3NTYwMH0.MRV8WJfRstSWSH-VhvCRNFTjrswM_3tM8u5u-EZysxk",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{domain}}/api/nguoiDung/getNguoiDungId/1",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"api",
+								"nguoiDung",
+								"getNguoiDungId",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getDanhSachAnhDaLuuNguoiDungId",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5Mb3AiOiJOb2RlSlMgMzMiLCJIZXRIYW5TdHJpbmciOiIxNy8wMi8yMDI0IiwiSGV0SGFuVGltZSI6IjE3MDgxMjgwMDAwMDAiLCJuYmYiOjE2ODk2OTk2MDAsImV4cCI6MTcwODI3NTYwMH0.MRV8WJfRstSWSH-VhvCRNFTjrswM_3tM8u5u-EZysxk",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{domain}}/api/nguoiDung/getDanhSachAnhDaLuuNguoiDungId/1",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"api",
+								"nguoiDung",
+								"getDanhSachAnhDaLuuNguoiDungId",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getDanhSachAnhDaTaoNguoiDungId",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5Mb3AiOiJOb2RlSlMgMzMiLCJIZXRIYW5TdHJpbmciOiIxNy8wMi8yMDI0IiwiSGV0SGFuVGltZSI6IjE3MDgxMjgwMDAwMDAiLCJuYmYiOjE2ODk2OTk2MDAsImV4cCI6MTcwODI3NTYwMH0.MRV8WJfRstSWSH-VhvCRNFTjrswM_3tM8u5u-EZysxk",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{domain}}/api/nguoiDung/getDanhSachAnhDaTaoNguoiDungId/1",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"api",
+								"nguoiDung",
+								"getDanhSachAnhDaTaoNguoiDungId",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "putNguoiDungId",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5Mb3AiOiJOb2RlSlMgMzMiLCJIZXRIYW5TdHJpbmciOiIxNy8wMi8yMDI0IiwiSGV0SGFuVGltZSI6IjE3MDgxMjgwMDAwMDAiLCJuYmYiOjE2ODk2OTk2MDAsImV4cCI6MTcwODI3NTYwMH0.MRV8WJfRstSWSH-VhvCRNFTjrswM_3tM8u5u-EZysxk",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"hihi@gmail.com\",\r\n    \"mat_khau\": \"123\",\r\n    \"ho_ten\": \"Tran Quang Nhut\",\r\n    \"tuoi\": 10000\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{domain}}/api/nguoiDung/putNguoiDungId/1",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"api",
+								"nguoiDung",
+								"putNguoiDungId",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "hinhAnh",
+			"item": [
+				{
+					"name": "getDanhSachHinhAnh",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{domain}}/api/hinhAnh/getDanhSachHinhAnh",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"api",
+								"hinhAnh",
+								"getDanhSachHinhAnh"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "timHinhAnhTheoTen",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{domain}}/api/hinhAnh/timHinhAnhTheoTen?tenHinh=a",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"api",
+								"hinhAnh",
+								"timHinhAnhTheoTen"
+							],
+							"query": [
+								{
+									"key": "tenHinh",
+									"value": "a"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getHinhAnhId+nguoiTaoAnh",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{domain}}/api/hinhAnh/getHinhAnhId/1",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"api",
+								"hinhAnh",
+								"getHinhAnhId",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getBinhLuanHinhAnhId",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5Mb3AiOiJOb2RlSlMgMzMiLCJIZXRIYW5TdHJpbmciOiIxNy8wMi8yMDI0IiwiSGV0SGFuVGltZSI6IjE3MDgxMjgwMDAwMDAiLCJuYmYiOjE2ODk2OTk2MDAsImV4cCI6MTcwODI3NTYwMH0.MRV8WJfRstSWSH-VhvCRNFTjrswM_3tM8u5u-EZysxk",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{domain}}/api/hinhAnh/getBinhLuanHinhAnhId/1",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"api",
+								"hinhAnh",
+								"getBinhLuanHinhAnhId",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getLuuHinhAnhId",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5Mb3AiOiJOb2RlSlMgMzMiLCJIZXRIYW5TdHJpbmciOiIxNy8wMi8yMDI0IiwiSGV0SGFuVGltZSI6IjE3MDgxMjgwMDAwMDAiLCJuYmYiOjE2ODk2OTk2MDAsImV4cCI6MTcwODI3NTYwMH0.MRV8WJfRstSWSH-VhvCRNFTjrswM_3tM8u5u-EZysxk",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{domain}}/api/hinhAnh/getLuuHinhAnhId/1",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"api",
+								"hinhAnh",
+								"getLuuHinhAnhId",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "postBinhLuanAnh",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5Mb3AiOiJOb2RlSlMgMzMiLCJIZXRIYW5TdHJpbmciOiIxNy8wMi8yMDI0IiwiSGV0SGFuVGltZSI6IjE3MDgxMjgwMDAwMDAiLCJuYmYiOjE2ODk2OTk2MDAsImV4cCI6MTcwODI3NTYwMH0.MRV8WJfRstSWSH-VhvCRNFTjrswM_3tM8u5u-EZysxk",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nguoi_dung_id\": 1,\r\n    \"hinh_id\": 1,\r\n    \"noi_dung\": \"ảnh đẹp\",\r\n    \"ngay_binh_luan\": \"2022-12-12\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{domain}}/api/hinhAnh/postBinhLuanAnh",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"api",
+								"hinhAnh",
+								"postBinhLuanAnh"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "postLuuHuyLuuAnh",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5Mb3AiOiJOb2RlSlMgMzMiLCJIZXRIYW5TdHJpbmciOiIxNy8wMi8yMDI0IiwiSGV0SGFuVGltZSI6IjE3MDgxMjgwMDAwMDAiLCJuYmYiOjE2ODk2OTk2MDAsImV4cCI6MTcwODI3NTYwMH0.MRV8WJfRstSWSH-VhvCRNFTjrswM_3tM8u5u-EZysxk",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nguoi_dung_id\": 1,\r\n    \"hinh_id\": 1,\r\n    \"ngay_luu\": \"2023-10-04\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{domain}}/api/hinhAnh/postLuuHuyLuuAnh",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"api",
+								"hinhAnh",
+								"postLuuHuyLuuAnh"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "postHinhAnh",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5Mb3AiOiJOb2RlSlMgMzMiLCJIZXRIYW5TdHJpbmciOiIxNy8wMi8yMDI0IiwiSGV0SGFuVGltZSI6IjE3MDgxMjgwMDAwMDAiLCJuYmYiOjE2ODk2OTk2MDAsImV4cCI6MTcwODI3NTYwMH0.MRV8WJfRstSWSH-VhvCRNFTjrswM_3tM8u5u-EZysxk",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "ten_hinh",
+									"value": "hinh moi",
+									"type": "text"
+								},
+								{
+									"key": "mo_ta",
+									"value": "hình đẹp",
+									"type": "text"
+								},
+								{
+									"key": "nguoi_dung_id",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "fileUpload",
+									"type": "file",
+									"src": "/E:/hinh nen/benyafez-studio-_j3o_uUCeis-unsplash.jpg"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{domain}}/api/hinhAnh/postHinhAnh",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"api",
+								"hinhAnh",
+								"postHinhAnh"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteHinhAnhId",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5Mb3AiOiJOb2RlSlMgMzMiLCJIZXRIYW5TdHJpbmciOiIxNy8wMi8yMDI0IiwiSGV0SGFuVGltZSI6IjE3MDgxMjgwMDAwMDAiLCJuYmYiOjE2ODk2OTk2MDAsImV4cCI6MTcwODI3NTYwMH0.MRV8WJfRstSWSH-VhvCRNFTjrswM_3tM8u5u-EZysxk",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nguoi_dung_id\": 1,\r\n    \"hinh_id\": 4,\r\n    \"noi_dung\": \"vvvvvvvvvvvvvvvvv\",\r\n    \"ngay_binh_luan\": \"2022-12-12\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{domain}}/api/hinhAnh/deleteHinhAnhId/1",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"api",
+								"hinhAnh",
+								"deleteHinhAnhId",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "auth",
+			"item": [
+				{
+					"name": "dangKi",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"hihi12@gmail.com\",\r\n    \"mat_khau\":\"123\",\r\n    \"ho_ten\":\"tran nhut\",\r\n    \"tuoi\": 28\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{domain}}/api/auth/dangKi",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"api",
+								"auth",
+								"dangKi"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "dangNhap",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"hihi@gmail.com\",\r\n    \"mat_khau\":\"123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{domain}}/api/auth/dangNhap",
+							"host": [
+								"{{domain}}"
+							],
+							"path": [
+								"api",
+								"auth",
+								"dangNhap"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "domain",
+			"value": "localhost:8080",
+			"type": "string"
+		}
+	]
+}
